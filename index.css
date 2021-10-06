@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("https://www.tutorialstonight.com/preview/countdown-timer/birthday-cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .countdown-timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(85, 85, 85, 0.6), rgba(199, 199, 199, 0.2))
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 0 5px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  ul li span {
+    display: block;
+    font-size: 50px;
+    padding-top: 5px;
+    color: rgb(226, 206, 28);
+    font-weight: 600;
+  }
+  
+  ul li span:nth-child(2) {
+    font-size: 20px;
+  }
+  .timer1{
+    display: flex;
+    justify-content: center;
+  }
+  .profileImage {
+    margin-top: 12px;
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+  }
+  @media screen and (max-width:425px) {
+    .profileImage {
+      margin-top: 20px;
+      height: 40px;
+      width: 40px;
+      border-radius: 20px;    }
+    
+  }
+  @media screen and (max-width:365px) {
+    .profileImage {
+      margin-left: 3px;
+      margin-top: 20px;
+      height: 40px;
+      width: 40px;
+      border-radius: 20px;    }
+    
+  }
+  @media screen and (max-width:320px) {
+    .profileImage {
+    margin-right: 23px;
+    margin-top: 25px;
+    height: 57px;
+    width: 79px;
+    border-radius: 30px;
+    }
+    
+  }
+  .greet {
+    color: rgb(211, 211, 211);
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 30px;
+  }
+  
+  .coming-year {
+    font-size: 250px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.493);
+  }
+  
+  @media (max-width:768px) {
+    ul li span {
+      font-size: 10vw;
+    }
+  
+    ul li span:nth-child(2) {
+      font-size: 15px;
+    }
+  
+    .coming-year {
+      font-size: 40vw;
+      font-weight: 900;
+    }
+  }
+
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+  h5 {
+    font-family: sans-serif;
+    display: block;
+    font-size: 25px;
+    padding-top: 5px;
+    color: rgb(226, 206, 28);
+    font-weight: 600;
+    text-align: center;
+  }
